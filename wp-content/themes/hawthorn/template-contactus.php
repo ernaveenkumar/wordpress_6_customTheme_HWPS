@@ -4,7 +4,11 @@
  Template Name: Contact Us
  */
 ?>
-<?php get_header(); ?>
+    <?php get_header(); ?>
+
+<section class="page-wrap">
+  <div class="container">
+
 
 <h3><?php the_title() ?></h3>
 
@@ -17,5 +21,8 @@
     <?php get_template_part('includes/section', 'content');?>
   </div>
 </div>
+  </div>
+</section>
+
 
 <?php get_footer() ?>
