@@ -14,5 +14,7 @@
     </div>
   </div>
 
-<?php endwhile; endif; ?>
+<?php endwhile; else:?>
+  <p>There are no results for <?php echo get_search_query(); ?> </p>
+<?php endif; ?>
 
