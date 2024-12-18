@@ -1,0 +1,165 @@
+/*media query*/
+@media only screen and (max-width: 578px) {
+  .logo {
+    text-align: center;
+  }
+  .main_navigation {
+    background-color: red;
+    overflow: hidden;
+  }
+  .main_navigation .menu {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+
+/* main navigation */
+html {
+  font-size: 62.5%;
+}
+body {
+  /* background-color: green; */
+}
+.logo {
+  max-width: 170;
+  max-height: 150px;
+  background-color: #fff574;
+}
+.slogan {
+  background-color: #fff574;
+}
+.schoolname_logo {
+  color: black;
+}
+
+.nav_section {
+  background-color: #fff574;
+}
+.main_navigation {
+  /* min-height: 5rem; */
+  /* display: flex; */
+  /* justify-content: flex-end;
+      align-items: center; */
+  /* width: 100%; */
+}
+
+.main_navigation .menu {
+  /* display: flex;
+  padding: 2rem;
+  position: relative;
+  justify-content: flex-center; */
+  /* align-items: baseline; */
+}
+.top-bar-navigation {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.top-bar-navigation > li {
+  background-color: #fff;
+  padding: 1rem 1.2rem 1rem 1.2rem;
+  margin-left: 0.3rem;
+  list-style: none;
+  border-radius: 0.8rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.01rem;
+}
+
+li.menu-item-has-children {
+  background-color: red;
+}
+li.menu-item-has-children:hover .sub-menu {
+  display: block;
+}
+.top-bar-navigation > li > a {
+  text-decoration: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.8rem;
+
+  text-transform: uppercase;
+}
+.top-bar-navigation .sub-menu {
+  display: none;
+  position: absolute;
+  top: 27.4%;
+  /* left: 0; */
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  list-style-type: none;
+  /* margin: 10px; */
+  z-index: 1;
+  width: 20rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: left;
+}
+.top-bar-navigation .sub-menu > li > a {
+  text-decoration: none;
+  font-size: 1.8rem;
+}
+.logo-navigation {
+}
+
+.top-bar-navigation > li:hover {
+  background-color: aqua;
+}
+
+/* .page-wrap {
+
+} */
+
+/* header .top-bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+header .container {
+  display: grid;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+header .top-bar li a {
+  padding: 0.25rem 1rem; 
+  color: white;
+} */
+
+/* header .top-bar li {
+  position: relative;
+} */
+
+/* header .top-bar li:first-child a {
+  padding-left: 0;
+}
+
+header .top-bar li:last-child a {
+  padding-right: 0;
+} */
+
+/*header .top-bar li .sub-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: '#fff';
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+header .top-bar li .sub-menu a {
+  color: red;
+  padding: 25rem;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+}
+
+header .top-bar .menu-item-has-children:hover .sub-menu {
+  display: block;
+}*/

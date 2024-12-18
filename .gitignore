@@ -62,3 +62,8 @@ wp-trackback.php
 # Note: If you wish to whitelist themes,
 # uncomment the next line
 #/wp-content/themes
+#node modules
+/wp-content/themes/hawthorn/node_modules/
+#images
+/wp-content/themes/hawthorn/images/
+
