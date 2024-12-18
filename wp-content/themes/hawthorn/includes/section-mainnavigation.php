@@ -3,12 +3,13 @@
   <!-- https://www.youtube.com/watch?v=DcbPVzq8lHY&t=1924s -->
    <div class="container-fluid ">
      <header class="row">
-      <section class="col logo pt-2 d-sm-flex justify-content-sm-center" >
+      <section class="col logo-container pt-2 d-sm-flex justify-content-sm-center" >
           <?php $upload_dir = wp_upload_dir(); ?>
             <img
             src="<?php echo $upload_dir['url'].'/';?>THEHAWTHORNSCHOOLlogo.png"
             alt="logo"
             class="logo img-fluid rounded-circle img-thumbnail border border-warning"
+            loading="lazy"
             />
       </section>
     </header>
@@ -27,6 +28,8 @@
       </header>
     </div>
 
+<div class="container">
+
 
   <nav class="navbar navbar-expand-md navbar-light bg-light" role="navigation">
   <div class="container">
@@ -34,7 +37,7 @@
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'your-theme-slug' ); ?>">
     <span class="navbar-toggler-icon"></span>
 </button>
-    <a class="navbar-brand" href="#">Navbar</a>
+    <a class="navbar-brand" href="#">The best kindergarten</a>
         <?php
         wp_nav_menu( array(
             'theme_location'    => 'primary',
@@ -49,3 +52,4 @@
         ?>
     </div>
 </nav>
+</div>

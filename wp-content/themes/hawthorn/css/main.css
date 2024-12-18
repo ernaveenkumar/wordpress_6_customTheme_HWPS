@@ -1,0 +1,34 @@
+.logo-container {
+  max-height: 15rem;
+}
+.logo {
+  max-width: 10rem;
+  max-height: 15rem;
+  object-fit: cover;
+  object-position: top center;
+}
+
+.carousel-item {
+  width: 100%;
+  max-width: 100rem;
+  max-height: 35rem;
+}
+.carousel-item > img {
+  object-fit: cover;
+  object-position: top center;
+}
+
+.featured-vid-img {
+  width: 100%;
+  /* max-width: 900px; */
+  /* max-height: 550px; */
+  /* max-inline-size: 100%; */
+  /* block-size: auto; */
+  aspect-ratio: 2/1;
+}
+
+.featured-vid-img > img {
+  /* max-inline-size: 100%; */
+  object-fit: cover;
+  object-position: top center;
+}
